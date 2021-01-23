@@ -35,10 +35,10 @@ public:
 	}
 	void createAchievements(string t, string d, int s)
 	{
-		Achievement aaaa(t, d, s);
+		Achievement placeholder(t, d, s);
 		if (counter <= 4)
 		{
-			achievements[counter] = aaaa;
+			achievements[counter] = placeholder;
 			counter++;
 		}
 	}
@@ -49,10 +49,6 @@ public:
 		{
 			cout << "Title: " << achievements[i].getTitle() << endl << achievements[i].getDescription() << endl << "Score value: " << achievements[i].getScore() << endl << endl;
 		}
-	}
-	void getAmountAchievement(int slot)
-	{
-		AmountAchievement = slot;
 	}
 };
 
