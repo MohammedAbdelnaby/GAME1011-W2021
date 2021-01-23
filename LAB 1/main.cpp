@@ -3,7 +3,6 @@
 #include "Achievements.h"
 #include "Games.h"
 #include "Platforms.h"
-//lab 1 
 using namespace std;
 void menuPlatform(platform* platform);
 void menuGame(game* game, platform* platforms, int slot);
