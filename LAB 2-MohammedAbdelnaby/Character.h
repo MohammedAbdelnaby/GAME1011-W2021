@@ -17,10 +17,6 @@ public:
 		weapon = pWeapon;
 	}
 	~Character() {}
-	int getHealth()
-	{
-		return health;
-	}
 	virtual void diplayInfo() = 0;
 	virtual void diplayName() = 0;
 
