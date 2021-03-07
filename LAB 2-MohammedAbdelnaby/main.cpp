@@ -14,7 +14,7 @@ int main()
 	Weapon wand("Wand", "a stick that can magic", 40, { "fireball","iceball","thunder blot" });
 	Weapon shovel("Shovel", "good for digging not at combat", 10, { "dig","dig","dig" });
 	Weapon sword("Sword", "this sword is made from blood iron", 60, { "swing", "slash", "block" });
-	Character* characterList[MAX_AMOUNT_CHARACTERS] = {NULL,NULL, NULL, NULL, NULL};
+	Character* characterList[MAX_AMOUNT_CHARACTERS] = {};
 	 unsigned short int userinput = 0;
 	 unsigned short int slot = 0;
 	cout << "Welcom player to Worlds Edges" << endl << endl;
